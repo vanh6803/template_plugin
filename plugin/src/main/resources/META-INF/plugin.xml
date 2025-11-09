@@ -1,0 +1,53 @@
+<idea-plugin>
+    <id>com.example.flutter-template-creator</id>
+    <name>Flutter Template Creator</name>
+    <version>1.0.0</version>
+    <vendor email="support@example.com" url="https://example.com">Flutter Template Creator</vendor>
+
+    <description><![CDATA[
+    Plugin để tạo Flutter project mới từ template GitHub.
+    
+    Tính năng:
+    - Tạo Flutter project từ template GitHub
+    - Tùy chọn platforms (iOS, Android, Web, Linux, Windows, macOS)
+    - Tự động cập nhật package name và project name
+    - Giao diện trực quan trong Android Studio/IntelliJ
+    - Tự động mở project sau khi tạo thành công
+    ]]></description>
+
+    <change-notes><![CDATA[
+    Version 1.0.0:
+    - Initial release
+    - Create Flutter project from template
+    - Support all platforms
+    - Auto-open project after creation
+    ]]></change-notes>
+
+    <!-- Dependencies -->
+    <depends>com.intellij.modules.platform</depends>
+    <depends>org.jetbrains.plugins.terminal</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Action trong menu File -> New -->
+        <action id="FlutterTemplateCreator.CreateProject"
+                class="com.example.fluttertemplate.CreateFlutterProjectAction"
+                text="Flutter Project from Template"
+                description="Tạo Flutter project mới từ template GitHub">
+            <add-to-group group-id="NewGroup" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt F"/>
+        </action>
+        
+        <!-- Action trong Welcome Screen - có thể dùng cùng action -->
+        <action id="FlutterTemplateCreator.CreateProject.Welcome"
+                class="com.example.fluttertemplate.CreateFlutterProjectAction"
+                text="Flutter Project from Template"
+                description="Tạo Flutter project mới từ template GitHub">
+            <add-to-group group-id="WelcomeScreen.QuickStartGroup" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>
+

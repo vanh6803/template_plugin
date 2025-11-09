@@ -1,0 +1,24 @@
+# Gradle
+.gradle/
+build/
+out/
+*.iml
+.idea/
+
+# Kotlin
+*.class
+*.jar
+*.war
+*.nar
+*.log
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
