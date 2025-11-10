@@ -2,6 +2,10 @@
 
 Script tự động tạo Flutter project mới từ template GitHub với các tùy chọn tùy chỉnh.
 
+> Tài liệu cho Plugin Android Studio/IntelliJ: xem `plugin/README.md` (Android Studio Plugin).
+>
+> Link nhanh: [Plugin Android Studio/IntelliJ](plugin/README.md)
+
 ## 📋 Mục lục
 
 - [Cài đặt](#cài-đặt)

@@ -2,6 +2,10 @@
 
 Plugin giúp tạo nhanh Flutter project mới từ template GitHub trực tiếp trong Android Studio/IntelliJ IDEA.
 
+> Tài liệu cho bản script CLI (chạy trong terminal): xem README ở thư mục gốc.
+>
+> Link nhanh: [Script CLI README](../README.md)
+
 ## 🚀 Tính năng
 
 - ✅ Tạo Flutter project từ template GitHub
