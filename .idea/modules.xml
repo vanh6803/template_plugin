@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FlutterTemplateCreator.iml" filepath="$PROJECT_DIR$/.idea/modules/FlutterTemplateCreator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FlutterTemplateCreator.main.iml" filepath="$PROJECT_DIR$/.idea/modules/FlutterTemplateCreator.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FlutterTemplateCreator.test.iml" filepath="$PROJECT_DIR$/.idea/modules/FlutterTemplateCreator.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/template_plugin.iml" filepath="$PROJECT_DIR$/.idea/template_plugin.iml" />
+    </modules>
+  </component>
+</project>

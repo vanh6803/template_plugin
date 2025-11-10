@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: unzipped.com.jetbrains.plugins:terminal:unzipped.com.jetbrains.plugins:ideaIC-IC-231.8109.175-withSources" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="unzipped.com.jetbrains.plugins" artifactId="terminal" version="ideaIC-IC-231.8109.175-withSources" baseVersion="ideaIC-IC-231.8109.175-withSources" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.1/79ab2d2970b44e4c36be667e173da87c982a9814/ideaIC-2023.1/plugins/terminal/lib/terminal.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.1/a7c308f4ec674747fd4a140cb882450908c97acb/ideaIC-2023.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
